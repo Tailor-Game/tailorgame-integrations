@@ -1,6 +1,6 @@
 # Tailorgame public integrations
 
-Standalone MIT-licensed release candidates for Tailorgame's existing public, read-only API. The source is published in [igeo-websites/tailorgame-integrations](https://github.com/igeo-websites/tailorgame-integrations), with its [initial public commit](https://github.com/igeo-websites/tailorgame-integrations/commit/37ff3b1ff6a690386eb197deaf64d40076dc273c) verified on November 6, 2026. This directory contains no application backend, deployment configuration, user records, credentials, or private repository history.
+Standalone MIT-licensed release candidates for Tailorgame's existing public, read-only API. The source is published in [Tailor-Game/tailorgame-integrations](https://github.com/Tailor-Game/tailorgame-integrations), with its [initial public commit](https://github.com/Tailor-Game/tailorgame-integrations/commit/37ff3b1ff6a690386eb197deaf64d40076dc273c) verified on November 6, 2026. This directory contains no application backend, deployment configuration, user records, credentials, or private repository history.
 
 **Status: source public under MIT; packages not yet published to npm or PyPI.** The owner approved the public integration files and package name `tailorgame-sdk`. npm and PyPI both returned HTTP 404 for that name on November 6, 2026; this was not a reservation. The application repository remains private and outside this license grant. Publisher authentication and registry setup are still required for registry releases, not for players or public API use; see [publishing setup](PUBLISHING.md).
 
@@ -23,7 +23,7 @@ The [JavaScript package README](packages/javascript/README.md) and [Python packa
 Use the [Skills CLI](https://skills.sh/docs/cli) to add the public integration skill to a supported coding agent:
 
 ```sh
-npx skills add igeo-websites/tailorgame-integrations --skill tailorgame-public
+npx skills add Tailor-Game/tailorgame-integrations --skill tailorgame-public
 ```
 
 The canonical skill lives at `skills/tailorgame-public/SKILL.md`. Review the instructions and choose your target agent when prompted. This configures public API guidance; it does not sign in to Tailorgame or install an SDK package.
@@ -38,12 +38,12 @@ The portable [Agent Plugins 1.0](https://agent-plugins.org/specification) manife
 
 ## Package downloads
 
-The [GitHub v1.0.0 release](https://github.com/igeo-websites/tailorgame-integrations/releases/tag/v1.0.0) is published. Both downloads were verified against their reviewed hashes and installed cleanly. No publisher account is needed to install them; npm/PyPI registry publication is still pending.
+The [GitHub v1.0.0 release](https://github.com/Tailor-Game/tailorgame-integrations/releases/tag/v1.0.0) is published. Both downloads were verified against their reviewed hashes and installed cleanly. No publisher account is needed to install them; npm/PyPI registry publication is still pending.
 
 ```sh
-npm install --ignore-scripts https://github.com/igeo-websites/tailorgame-integrations/releases/download/v1.0.0/tailorgame-sdk-1.0.0.tgz
+npm install --ignore-scripts https://github.com/Tailor-Game/tailorgame-integrations/releases/download/v1.0.0/tailorgame-sdk-1.0.0.tgz
 ./node_modules/.bin/tailorgame --help
-python -m pip install https://github.com/igeo-websites/tailorgame-integrations/releases/download/v1.0.0/tailorgame_sdk-1.0.0-py3-none-any.whl
+python -m pip install https://github.com/Tailor-Game/tailorgame-integrations/releases/download/v1.0.0/tailorgame_sdk-1.0.0-py3-none-any.whl
 ```
 
 ## Validate and package locally

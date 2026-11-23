@@ -2,7 +2,7 @@
 
 Read Tailorgame's public game catalog, practice rankings, and documentation from JavaScript, TypeScript, or the command line. No runtime dependencies, account, or API key. ESM and Node.js 24.12+; browser applications can bundle the SDK. The CLI requires Node.js.
 
-**MIT release candidate: publication authorized, not yet published to npm.** Package name: `tailorgame-sdk`; command: `tailorgame`. The approved source repository is [igeo-websites/tailorgame-integrations](https://github.com/igeo-websites/tailorgame-integrations). Registry publishing still requires the owner's authenticated release setup.
+**MIT release candidate: publication authorized, not yet published to npm.** Package name: `tailorgame-sdk`; command: `tailorgame`. The approved source repository is [Tailor-Game/tailorgame-integrations](https://github.com/Tailor-Game/tailorgame-integrations). Registry publishing still requires the owner's authenticated release setup.
 
 ## Try the local package
 
