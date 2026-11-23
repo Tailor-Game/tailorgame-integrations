@@ -1,6 +1,6 @@
 # Authorized release setup
 
-The owner approved MIT publication of these public integration files as `tailorgame-sdk` on npm and PyPI. The separate source repository [igeo-websites/tailorgame-integrations](https://github.com/igeo-websites/tailorgame-integrations) is public; its [initial commit](https://github.com/igeo-websites/tailorgame-integrations/commit/37ff3b1ff6a690386eb197deaf64d40076dc273c) was verified on November 6, 2026. The application repository remains private. npm and PyPI packages are still unpublished, awaiting publisher authentication and configuration. Those accounts are needed only to publish packages, not to play games or use the public API.
+The owner approved MIT publication of these public integration files as `tailorgame-sdk` on npm and PyPI. The separate source repository [Tailor-Game/tailorgame-integrations](https://github.com/Tailor-Game/tailorgame-integrations) is public; its [initial commit](https://github.com/Tailor-Game/tailorgame-integrations/commit/37ff3b1ff6a690386eb197deaf64d40076dc273c) was verified on November 6, 2026. The application repository remains private. npm and PyPI packages are still unpublished, awaiting publisher authentication and configuration. Those accounts are needed only to publish packages, not to play games or use the public API.
 
 ## Verify without registry authentication
 
@@ -18,7 +18,7 @@ Configure the registries with these exact values:
 | --- | --- | --- |
 | Package/project | `tailorgame-sdk` | `tailorgame-sdk` |
 | Provider | GitHub Actions | GitHub |
-| Owner | `igeo-websites` | `igeo-websites` |
+| Owner | `Tailor-Game` | `Tailor-Game` |
 | Repository | `tailorgame-integrations` | `tailorgame-integrations` |
 | Workflow filename | `publish.yml` | `publish.yml` |
 | Environment | `npm` | `pypi` |

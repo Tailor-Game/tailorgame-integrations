@@ -98,8 +98,8 @@
   "sourceFiles": [
     {
       "path": ".claude-plugin/plugin.json",
-      "bytes": 345,
-      "sha256": "0f4156e13c2e944612616de42a556d3e7bfca1d30890cffd3b8403705807cffb"
+      "bytes": 343,
+      "sha256": "358b9c743b41327e9e9e8d46bf84723efd13cd2b7cbd778dbd3a8f97202b6cb9"
     },
     {
       "path": ".cursor/rules/tailorgame-public.mdc",
@@ -108,8 +108,8 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "bytes": 4573,
-      "sha256": "a6e557d9b0d27237c90ee5218a37d0977c77cb0ca64c4b438e6847b9a7f05c59"
+      "bytes": 4569,
+      "sha256": "400b410df82670f733f11a7bbe8334a76a4b9f3fde01a195bdabb0d83b928928"
     },
     {
       "path": ".gitignore",
@@ -123,13 +123,13 @@
     },
     {
       "path": "PUBLISHING.md",
-      "bytes": 5640,
-      "sha256": "fd482873cdf43bba550a41f1e0d4d2120a8ae8436c6a0804135da7cb1e9051df"
+      "bytes": 5630,
+      "sha256": "20ef15f5243f5bb4465040d3df9c6e0ef1fca020955c5df774e961ce6a1dec34"
     },
     {
       "path": "README.md",
-      "bytes": 7896,
-      "sha256": "3a044603dc8c45f8ddddba21d7dc32f734dfda05a74424f96dbb37dd976c395b"
+      "bytes": 8503,
+      "sha256": "868df5e9625f08d6fd3e879e170118b0dd79a579a44ed646782088fca273d48b"
     },
     {
       "path": "agent-configs/.claude/skills/tailorgame-public/SKILL.md",
@@ -148,8 +148,8 @@
     },
     {
       "path": "agent-configs/plugin/.claude-plugin/plugin.json",
-      "bytes": 345,
-      "sha256": "0f4156e13c2e944612616de42a556d3e7bfca1d30890cffd3b8403705807cffb"
+      "bytes": 343,
+      "sha256": "358b9c743b41327e9e9e8d46bf84723efd13cd2b7cbd778dbd3a8f97202b6cb9"
     },
     {
       "path": "agent-configs/plugin/LICENSE",
@@ -173,8 +173,8 @@
     },
     {
       "path": "packages/javascript/README.md",
-      "bytes": 3828,
-      "sha256": "d3a60e87c919eba0fc71ccc96996e029c09b21b5a1fbd4c7c69a430c6972925f"
+      "bytes": 3824,
+      "sha256": "d41e4e44d8eeccd0d827d750c654f6b71820dd1d375f764d1a3108e9ed6c5c81"
     },
     {
       "path": "packages/javascript/bin/tailorgame.mjs",
@@ -183,8 +183,8 @@
     },
     {
       "path": "packages/javascript/package.json",
-      "bytes": 1101,
-      "sha256": "73ba783404f8d6752548a487ff1c49e736e0ffcccc8f5109c84bd0dda220fb64"
+      "bytes": 1097,
+      "sha256": "0ef0f9d2581e384ff73b956b16fc46d9a8b9e50ee5a926f72965f6dab56f3fae"
     },
     {
       "path": "packages/javascript/tailorgame.d.mts",
@@ -218,13 +218,13 @@
     },
     {
       "path": "packages/python/README.md",
-      "bytes": 3102,
-      "sha256": "25b0acb2f2cdefe841461ff7c2123568d0e3e469842486522f1bca28b5c7d0ce"
+      "bytes": 3098,
+      "sha256": "bc2a5afd1f12d0975d367839037bbd2dd1e2f2d216259ef9793236573ac0b68d"
     },
     {
       "path": "packages/python/pyproject.toml",
-      "bytes": 899,
-      "sha256": "e225c5e48b9055408918fe1e08a145e0f383739ea724f19614be4182c0104a78"
+      "bytes": 895,
+      "sha256": "f4ac4430cc09401390e5fe90ab562bd353a9e35cc6d8e03cf9a2bb7744cd8b01"
     },
     {
       "path": "packages/python/src/tailorgame.py",
@@ -249,11 +249,11 @@
   ],
   "publicationAuthorized": true,
   "license": "MIT",
-  "repository": "https://github.com/igeo-websites/tailorgame-integrations",
+  "repository": "https://github.com/Tailor-Game/tailorgame-integrations",
   "publicationStatus": "Source repository public under MIT; npm/PyPI packages not yet published and publisher setup pending",
   "sourcePublication": {
     "published": true,
-    "repository": "https://github.com/igeo-websites/tailorgame-integrations",
+    "repository": "https://github.com/Tailor-Game/tailorgame-integrations",
     "initialCommit": "37ff3b1ff6a690386eb197deaf64d40076dc273c",
     "verifiedAt": "2026-11-06"
   },
@@ -264,7 +264,7 @@
   "githubReleasePublication": {
     "published": false,
     "plannedTag": "v1.0.0",
-    "plannedUrl": "https://github.com/igeo-websites/tailorgame-integrations/releases/tag/v1.0.0",
+    "plannedUrl": "https://github.com/Tailor-Game/tailorgame-integrations/releases/tag/v1.0.0",
     "status": "pending; release and assets not yet verified"
   }
 }

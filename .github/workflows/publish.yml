@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository == 'igeo-websites/tailorgame-integrations' && github.ref == 'refs/heads/main'
+    if: github.repository == 'Tailor-Game/tailorgame-integrations' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -51,7 +51,7 @@ jobs:
           assert js['version'] == py['version'] == version
           assert js['license'] == py['license'] == 'MIT'
           assert js['private'] is False
-          assert js['repository']['url'] == 'git+https://github.com/igeo-websites/tailorgame-integrations.git'
+          assert js['repository']['url'] == 'git+https://github.com/Tailor-Game/tailorgame-integrations.git'
           PY
       - name: Test public clients
         run: |

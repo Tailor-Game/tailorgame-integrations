@@ -22,8 +22,8 @@ classifiers = [
 [project.urls]
 Homepage = "https://tailorgame.com"
 Documentation = "https://tailorgame.com/docs"
-Repository = "https://github.com/igeo-websites/tailorgame-integrations"
-Issues = "https://github.com/igeo-websites/tailorgame-integrations/issues"
+Repository = "https://github.com/Tailor-Game/tailorgame-integrations"
+Issues = "https://github.com/Tailor-Game/tailorgame-integrations/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

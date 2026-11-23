@@ -2,7 +2,7 @@
 
 Public read-only Tailorgame client for Python 3.9+. Uses only the standard library; no runtime dependencies, account, or API key. Distribution name: `tailorgame-sdk`. Import name: `tailorgame`.
 
-**MIT release candidate: publication authorized, not yet published to PyPI.** The approved source repository is [igeo-websites/tailorgame-integrations](https://github.com/igeo-websites/tailorgame-integrations). Registry publishing still requires the owner's authenticated release setup.
+**MIT release candidate: publication authorized, not yet published to PyPI.** The approved source repository is [Tailor-Game/tailorgame-integrations](https://github.com/Tailor-Game/tailorgame-integrations). Registry publishing still requires the owner's authenticated release setup.
 
 ## Install locally
 
